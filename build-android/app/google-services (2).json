@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "252124999084",
+    "project_id": "friendlychatnew-mateusz-l1",
+    "storage_bucket": "friendlychatnew-mateusz-l1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252124999084:android:1ad96f8c867979bce95e09",
+        "android_client_info": {
+          "package_name": "com.google.firebase.codelab.friendlychat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH3_KOUizRHqFygXdNR6bKGzPjaWJGezE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

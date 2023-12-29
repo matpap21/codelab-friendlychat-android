@@ -1,3 +1,4 @@
+
 buildscript {
     ext.kotlin_version = "1.6.20"
     repositories {
@@ -22,7 +23,7 @@ allprojects {
         mavenLocal()
     }
 
-    def isNonStable = { candidate -> 
+    def isNonStable = { candidate ->
         return ['alpha', 'beta', 'rc', 'SNAPSHOT'].any { word ->
             return candidate.version.contains(word)
         }
@@ -30,7 +31,7 @@ allprojects {
 
     def isBlackListed = { candidate ->
         def blacklist = [
-            // ...
+                // ...
         ]
         return blacklist.any { word ->
             return candidate.toString().contains(word)
